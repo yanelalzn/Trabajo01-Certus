@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url(img/fondo-login.jpg);
+}
+
+main{
+    background-color: #FFCDCD;
+    border-radius: 20px;
+}
+
+.boton-ingresar{
+    background-color: #5B8C5A !important;
+    color: white !important;
+}

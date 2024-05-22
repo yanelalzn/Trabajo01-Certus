@@ -1,0 +1,185 @@
+body{
+    background-image: url(img/fondo-login.jpg);
+}
+
+.up{
+    width: 100%;
+}
+
+.container{
+    background-color: #FEF1E6;
+}
+
+.up p{
+    background-color: #5B8C5A;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    background-size: cover;
+}
+
+.izquierda{
+    display: flex;
+    align-items: baseline;
+    padding: 4px 0 0 34px;
+    width: 60%;
+}
+
+.derecha{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 25px 0 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+}
+
+
+header .logo-img{
+    width: 9em;
+    height: 5em;
+
+}
+
+.menu li:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+header ul{
+    display: flex;                                                                                                           
+    list-style: none;
+}
+
+nav .menu{
+    padding: 0px 23px 25px;
+}
+
+.izquierda ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    padding: 12px 15px;
+}
+
+.izquierda ul a:hover{
+    color: #5B8C5A;
+    font-weight: 500;
+    
+
+}
+
+
+.derecha ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    padding: 12px 15px;
+}
+
+.derecha li{
+    display: flex;
+    align-items: center;
+}
+
+.derecha img{
+    width: 22px;
+    height: 22px;
+}
+
+.derecha p{
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13em;
+}
+
+.banner_photo {
+    margin-top: 5px; position: relative;
+}
+
+.nav-tittle, p h1{
+    text-align: center;
+}
+
+
+.nav-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8em;
+}
+
+.nav-text, p h1{
+    text-align: center;
+    color: #295228;
+}
+
+.nav-text, h1{
+    text-transform: uppercase;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 4em;
+    flex-wrap: wrap;
+}
+
+.cata{
+    width: 32%;
+    border: 2px solid #EADBC8;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 3em;
+}
+
+.cata img{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+
+.cata, p a{
+    text-align: center;
+}
+
+.cata .title-cat{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tachado{
+    text-decoration: line-through;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+}
+
+.cata a{
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-bottom: 1rem;
+}
+
+.btn-color{
+    background-color: #5B8C5A !important;
+    color: white !important;
+}
