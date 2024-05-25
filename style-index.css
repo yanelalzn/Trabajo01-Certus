@@ -6,8 +6,16 @@ body{
     width: 100%;
 }
 
+.container-cata{
+    background-color: pink !important;
+}
+
 .container{
     background-color: #FEF1E6;
+}
+
+.row{
+    width: 100%;
 }
 
 .up p{
