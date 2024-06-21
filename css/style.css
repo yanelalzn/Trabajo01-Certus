@@ -1,0 +1,19 @@
+body{
+  background-image: url(../img/fondo-login.jpg);
+}
+
+.rounded{
+  background-color: white;
+}
+
+/* boton salir */
+
+.salir img{
+  height: 20px;
+  width: 20px;
+}
+
+.salir{
+  display: flex;
+  justify-content: right;
+}

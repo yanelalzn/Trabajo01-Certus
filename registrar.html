@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row p-5">
+            <div class="p-4 border rounded">
+                <div class="salir">
+                  <a href="login.html"> <img src="img/x.png" alt=""> </a>
+                </div>
+                <h1>Registrate</h1>
+                <form id="formulario">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="usuario">Usuario:</label>
+                            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingrese su usuario">
+                            <div class="invalid-feedback">
+                            El usuario tiene que ser de 4 a 16 digitos y solo puede contener números, letras y guion bajo.
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                            <div class="invalid-feedback">
+                              El nombre tiene que contener solo letras.
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="correo">Correo:</label>
+                            <input type="text" class="form-control" id="correo" name="correo" placeholder="Crear un Correo Electronico">
+                            <div class="invalid-feedback">
+                              Correo Electronico no valido.
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="celular">Número de Celular:</label>
+                            <input type="text" class="form-control" id="celular" name="celular" placeholder="Ingresar Nro. Celular">
+                            <div class="invalid-feedback">
+                              Número de Celular no valido.
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="password">Contraseña:</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Ingresar contraseña">
+                            <div class="invalid-feedback">
+                              La contraseña tiene que tener al menos 8 caracteres entre letras, números y un caracter especial.
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="secPassword">Repetir Contraseña:</label>
+                            <input type="password" class="form-control" id="secPassword" name="secPassword" placeholder="Ingresar contraseña">
+                            <div class="invalid-feedback">
+                              Ambas contraseñas deben ser iguales.
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="sexo">Sexo:</label>
+                            <select id="sexo" name="sexo" class="form-control">
+                                <option value="" selected>Seleccione su sexo</option>
+                                <option  value="femenino">Femenino</option>
+                                <option  value="masculino">Masculino</option>
+                                <option  value="otro">Otro</option>
+                            </select>
+                            <div class="invalid-feedback">Debe elegir un sexo</div>
+                          </div>
+                          <div class="form-group col-md-8">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                          </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+      <script src="js/val.js"></script>
+
+</body>
+</html>

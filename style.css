@@ -21,4 +21,23 @@ main{
 .boton-ingresar{
     background-color: #5B8C5A !important;
     color: white !important;
+    margin-bottom: 1em;
+}
+
+/* boton registrar */
+
+.registrar a{
+    text-decoration: none !important; 
+    margin-top: 1em;
+    color: #5B8C5A;
+}
+
+/* img logo */
+
+.img-logo img{
+    text-align: center;
+    width: 140px;
+    height: 130px;
+    border-radius: 100%;
+    margin-bottom: 2em;
 }

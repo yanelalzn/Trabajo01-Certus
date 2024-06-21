@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-index.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
     <title>Dresses Woman</title>
 </head>
 <body>
-
-    <div class="">
-
         <header>
             <div class="up">
                 <p>¡Alerta Amistosa! Las fechas de entrega no están garantizadas debido a los continuos retrasos del transportista. ¡Los amamos y gracias por su paciencia!</p>
@@ -42,13 +40,40 @@
                     </li>
                     <li>
                         <img src="img/cara-feliz.png" alt="">
-                        <a href="#">Acceso</a>
+                        <a href="login.html">Salir</a>
                     </li>
                     <li>
-                        <img src="img/bolsa.png" alt="">
+                        <img onclick="showCart(this)" class="cart" src="img/bolsa.png" alt="">
+                        <p class="count-product">0</p>
                         <a href="#">Bolsa</a>
                     </li>
                 </ul>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Mi carrito</h3>
+                <div class="card-items">
+                    <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span>X</span>
+                    </div>
+    
+                    <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span class="delete-product" data-id="">X</span>
+                    </div>
+                </div>
+                <h2>Total: $<strong class="price-total">0</strong></h2>
             </div>
         </header>
 
@@ -63,49 +88,48 @@
 
         <div class="catalogo">
             <div class="cata col col-12 col-sm-12 col-md-6 col-lg-4">
-                <img src="img/vestido1.jpg" alt="">
+                <img src="https://ih1.redbubble.net/image.2141290934.1326/aldr,x1440,front-c,168,326,600,600-bg,f8f8f8.jpg" alt="">
                 <p class="title-cat">Light Blue Dress</p>
                 <p class="tachado">PEN 250.00</p>
                 <P>PEN 200.00</P>
                 <a href="lightBlue-Dress.html" class="btn btn-color btn-block">Ver detalle</a>
             </div>
             <div class="cata">
-                <img src="img/vestido2.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/b1/1e/e6/b11ee6f50c428a52ab928bd1c8fe5d4b.jpg" alt="">
                 <p class="title-cat">Black Dress</p>
                 <p class="tachado">PEN 280.00</p>
                 <P>PEN 180.00</P>
                 <a href="" class="btn btn-color btn-block">Ver detalle</a>
             </div>
             <div class="cata">
-                <img src="img/vestido3.jpg" alt="">
+                <img src="https://i.pinimg.com/564x/af/fc/30/affc300c3172826a5fce7cecc7bfe018.jpg" alt="">
                 <p class="title-cat">Orange Dress</p>
                 <p class="tachado">PEN 500.00</p>
                 <P>PEN 420.00</P>
                 <a href="#" class="btn btn-block btn-color">Ver detalle</a>
             </div>
             <div class="cata col col-12 col-sm-12 col-md-6 col-lg-4">
-                <img src="img/vestido4.jpg" alt="">
+                <img src="https://i.pinimg.com/564x/b9/ae/3c/b9ae3c4dbc57e2b8ff85f98aeb1e8e9e.jpg" alt="">
                 <p class="title-cat">White Dress</p>
                 <p class="tachado">PEN 250.00</p>
                 <P>PEN 200.00</P>
                 <a href="lightBlue-Dress.html" class="btn btn-color btn-block">Ver detalle</a>
             </div>
             <div class="cata">
-                <img src="img/vestido5.jpg" alt="">
+                <img src="https://i.pinimg.com/564x/b2/82/7e/b2827eaf1cd3308389d4909bbcb76f01.jpg" alt="">
                 <p class="title-cat">Green Dress</p>
                 <p class="tachado">PEN 280.00</p>
                 <P>PEN 180.00</P>
                 <a href="" class="btn btn-color btn-block">Ver detalle</a>
             </div>
             <div class="cata">
-                <img src="img/vestido6.jpg" alt="">
+                <img src="https://i.pinimg.com/564x/55/a0/9d/55a09d5ff846a69f97b89043b515ab97.jpg" alt="">
                 <p class="title-cat">Fuchsia Dress</p>
                 <p class="tachado">PEN 500.00</p>
                 <P>PEN 420.00</P>
                 <a href="#" class="btn btn-block btn-color">Ver detalle</a>
             </div>
         </div>
-    </div>
     <br>
 
     

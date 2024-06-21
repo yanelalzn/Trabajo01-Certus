@@ -40,24 +40,127 @@ body{
     justify-content: center;
     flex-direction: column;
     padding: 25px 25px 0 0;
+    position: relative;
 }
+
 header{
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     flex-wrap: wrap;
     top: 0px;
     background-color: white;
     z-index: 10;
+    margin-bottom: 1em;
 }
 
+.btn-button{
+    width: 100%;
+    background-color: #5B8C5A !important;
+    color: #fff !important;
+}
+
+.btn-button:hover{
+    width: 100%;
+    background-color: #4f754e !important;
+    color: #fff !important;
+}
+
+li{
+    position: relative;
+}
 
 header .logo-img{
     width: 9em;
     height: 5em;
 
 }
+
+.derecha p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: black;
+    font-weight: 700;
+    font-family: system-ui;
+    line-height: 18px;
+}
+
+
+/* carrito compras*/
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+
+    min-width: 290px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+
+/*float cart*/
+.cart-products .item img{
+    width: 115px;
+}
+
+.cart-products .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px red;
+}
+.cart-products .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.cart-products .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item span{
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.cart-products h3{
+    margin-bottom: 0;
+}
+.cart-products .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+
+/*stye to btn close*/
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+
 
 .menu li:hover{
     transform: scale(1.1);
@@ -94,24 +197,26 @@ nav .menu{
     font-size: 18px;
     color: black;
     font-weight: 300;
-    padding: 12px 15px;
+    padding: 12px 6px;
 }
 
 .derecha li{
     display: flex;
     align-items: center;
+    margin: 0 8px;
 }
 
 .derecha img{
     width: 22px;
     height: 22px;
+    cursor: pointer;
 }
 
-.derecha p{
+/* .derecha p{
     color: darkgrey;
     font-size: 20px;
     text-align: center;
-}
+} */
 
 .banner{
     display: flex;
@@ -132,7 +237,7 @@ nav .menu{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 8em;
+    /* margin-bottom: 8em; */
 }
 
 .nav-text, p h1{
@@ -140,7 +245,7 @@ nav .menu{
     color: #295228;
 }
 
-.nav-text, h1{
+.nav-text h1{
     text-transform: uppercase;
 }
 
@@ -152,8 +257,17 @@ nav .menu{
     flex-wrap: wrap;
 }
 
+.cata-photo{
+    text-align: center;
+}
+
+.cata-photo img{
+    width: 70%;
+    height: 80%;
+}
+
 .cata{
-    width: 32%;
+    width: 30% !important;
     border: 2px solid #EADBC8;
     background-color: white;
     border-radius: 10px;
@@ -164,6 +278,11 @@ nav .menu{
     width: 100%;
     height: 400px;
     padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.cata img:hover{
+    transform: scale(1.03);
 }
 
 .cata, p a{

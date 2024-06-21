@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-index.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
     <title>LightBlue Dress</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                         <img class="menu-logo" src="images/menu.png" alt="" id="icono">
                     </div>
                     <ul class="menu" id="menu-selec">
-                        <li><a href="#">Nuevo</a></li>
+                        <li><a href="index.html">Nuevo</a></li>
                         <li><a style="color: darkgreen; font-weight: 400;" href="#">Mujer</a></li>
                         <li><a href="#">Hombre</a></li>
                         <li><a href="#">Contacto</a></li>
@@ -40,7 +40,7 @@
                     </li>
                     <li>
                         <img src="img/cara-feliz.png" alt="">
-                        <a href="#">Acceso</a>
+                        <a href="login.html">Salir</a>
                     </li>
                     <li>
                         <img src="img/bolsa.png" alt="">
@@ -49,19 +49,11 @@
                 </ul>
             </div>
         </header>
-        <div class="nav-text">
-            <h1>
-                Catálogo de Productos
-            </h1>
-            <p>
-                Woman
-            </p>
-        </div>
         <div class="row">
-            <div class="col col-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="cata-photo col col-12 col-sm-12 col-md-8 col-lg-7">
                 <img src="img/vestido1.jpg" alt="" width="90%" height="80%">
             </div>
-            <div class="col col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-5">
                 <div class="row">
                     <div class="col col-12">
                         <h2>Vestido Largo con Avertura</h2>
@@ -86,8 +78,8 @@
                         <input type="number" class="form-control" id="cantidad" value="1" required>
                     </div>
                     <div class="col col-12 mt-5">
-                        <a href="#" class="btn btn-primary btn-block">Agregar a carrito</a>
-                    </div>
+                        <a href="#" class="btn btn-lg btn-block btn-button" data-toggle="modal" data-target="#carritoModal" >Añadir al carrito</a>
+                     </div>
                 </div>
             </div>
         </div>
